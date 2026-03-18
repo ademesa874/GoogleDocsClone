@@ -8,9 +8,32 @@
 </head>
 
 <body>
-    <img src="Images/DocFlow.png" alt="DocFlow.png">
-    <p>A web application that allows users to create, edit, and organize documents in a clean workspace designed for
-        productivity and collaboration.</p>
+    <Form>
+        <div class="imgcontainer">
+            <img src="Images/DocFlow.png" alt="DocFlow.png">
+        </div>
+        <div class="pcontainer">
+            <p>A web application that allows users to create, edit, and organize documents in a clean workspace designed
+                for productivity and collaboration.</p>
+        </div>
+        <div class="container">
+            <label for="uname">Username:</label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw">Password:</label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label for="">
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </Form>
 </body>
 
 </html>
